@@ -5,6 +5,7 @@
 # Authors:
 #  * Szu-Wei Fu 2021
 #  * Peter Plantinga 2020, 2021
+#  * MG+/- additions by George Close, 2022
 # #################################
 
 # Seed needs to be set at top of yaml, before objects with parameters are made

@@ -9,7 +9,7 @@ Authors
  * Szu-Wei Fu 2020
  * Peter Plantinga 2021
 
-MetricGAN- additions by George Close 2021
+MetricGAN+/- additions by George Close 2022
 """
 
 import os
