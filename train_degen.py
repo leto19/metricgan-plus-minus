@@ -117,9 +117,9 @@ class MetricGanBrain(sb.Brain):
             target_score = torch.ones(self.batch_size, 1, device=self.device)
             #we set the target of the degenerator to be less than 1 
             target_score = target_score * self.hparams.degraded_target
-            print(target_score)
+            #print(target_score)
             est_score = self.est_score(predict_spec, clean_spec)
-            print(est_score)
+            #print(est_score)
             #self.mse_metric.append(
             #    ids, predict_spec, clean_spec, lens, reduction="batch"
             #)
